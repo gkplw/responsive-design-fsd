@@ -167,4 +167,20 @@ h3 {
   left: 0px;
 }
 
-/* Start coding here */
+
+@media screen and (max-width: 600px) {
+  .topic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .row-1,
+  .row-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
